@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Nova",
+    "slug": "Nova",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/slides/application.png",
+    "splash": {
+      "image": "./assets/images/slides/application.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.meenakumari.school"
+    },
+    "web": {
+      "favicon": "./assets/images/slides/application.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e765b7f-1d38-4f35-aefd-c7088c2d0056"
+      }
+    }
+  }
+}
